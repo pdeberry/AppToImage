@@ -1,0 +1,10 @@
+FROM php:8-apache
+
+RUN mkdir /app
+WORKDIR /app
+
+Copy ./AppToImage/bin/Release/net5.0/publish ./
+
+EXPOSE 5000
+
+ENTRYPOINT ["dotnet", "AppToImage.dll"]    

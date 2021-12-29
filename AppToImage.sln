@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppToImage", "AppToImage\AppToImage.csproj", "{570223B4-C40B-46E3-AC4A-D1A4ED32E6D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{570223B4-C40B-46E3-AC4A-D1A4ED32E6D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{570223B4-C40B-46E3-AC4A-D1A4ED32E6D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{570223B4-C40B-46E3-AC4A-D1A4ED32E6D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{570223B4-C40B-46E3-AC4A-D1A4ED32E6D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2417515-D3D8-4148-A139-A907CDAF403A}
+	EndGlobalSection
+EndGlobal
