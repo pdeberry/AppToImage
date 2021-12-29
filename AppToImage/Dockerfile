@@ -9,7 +9,7 @@ WORKDIR /app
 
 # Copy csproj and restore as distinct layers
 
-COPY *.csproj ./
+COPY /AppToImage/*.csproj ./
 
 RUN dotnet restore
 
@@ -17,7 +17,7 @@ RUN dotnet restore
 
 # Copy everything else and build
 
-Copy ./     /app
+Copy /AppToImage/./     /app
 
 RUN dotnet publish -c Release -o out
 
