@@ -17,9 +17,9 @@ RUN dotnet restore
 
 # Copy everything else and build
 
-Copy .  /app
+Copy ./     /app
 
-RUN dotnet publish -c Release -o /app
+RUN dotnet publish -c Release -o out
 
  
 
@@ -29,7 +29,7 @@ FROM mcr.microsoft.com/dotnet/aspnet:5.0
 
 WORKDIR /app
 
-COPY --from=build-env app .
+COPY --from=build-env  /app/out .
 
 EXPOSE 80
 ENTRYPOINT ["dotnet", "AppToImage.dll"]
